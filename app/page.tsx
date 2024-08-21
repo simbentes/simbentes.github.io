@@ -3,13 +3,16 @@ import { BlogPosts } from "app/components/posts";
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Simão Bentes</h1>
+      <h1 className="mb-8 text-4xl font-medium">Simão Bentes</h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        Hey there! I'm a Product Designer over at Altice Labs. My main focus is on
+        building and managing solid design systems that make sure our B2B products are
+        consistent and easy to use. I love what I do because I get to mix creativity with
+        tech skills to make digital experiences better for users.
+      </p>
+      <p>
+        You can find me trying out new recipes, going for runs, or just chilling with a
+        good movie.
       </p>
       <div className="my-8">
         <BlogPosts />
