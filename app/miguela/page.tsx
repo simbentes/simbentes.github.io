@@ -1,3 +1,4 @@
+import Video from "app/components/video";
 import WorkArticle from "app/components/workArticles";
 
 export default function Page() {
@@ -55,6 +56,7 @@ export default function Page() {
             while providing fans with an engaging and immersive experience.
           </p>
         </div>
+        <Video />
         <div className="max-w-2xl">
           <h3 className="text-3xl font-medium mb-3">Features</h3>
           <ul className="list-disc list-inside text-zinc-700 text-lg">
