@@ -9,7 +9,7 @@ export default function WorkArticle({ title, description, imgSrc, link }) {
         <div className="flex items-center justify-between">
           <p className="text-xl text-zinc-600 max-w-2xl">{description}</p>
           <Link
-            href={`/work${link}`}
+            href={link}
             className="py-2 px-8 border border-zinc-400 rounded-full text-nowrap hover:bg-zinc-100 hover:shadow-sm transition-all"
           >
             Read More
