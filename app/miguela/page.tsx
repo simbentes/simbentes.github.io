@@ -1,10 +1,9 @@
 import Video from "app/components/video";
-import WorkArticle from "app/components/workArticles";
 
 export default function Page() {
   return (
     <main>
-      <div className="flex flex-col gap-y-10 mb-5">
+      <div className="flex flex-col gap-y-12 mb-5">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-medium mb-4">Miguela</h2>
           <p className="text-zinc-700 text-lg mb-6">
@@ -21,6 +20,20 @@ export default function Page() {
             content.
           </figcaption>
         </figure>
+        <div className="max-w-2xl">
+          <h3 className="text-3xl font-medium mb-3">Discovering the need</h3>
+          <p className="text-zinc-700 text-lg">
+            I was responsible for the complete design and development of Miguela’s
+            official website, ensuring a seamless user experience and an aesthetically
+            pleasing interface that aligns with Miguela’s artistic vision.
+          </p>
+          <p className="text-zinc-700 text-lg mt-6">
+            I was responsible for the complete design and development of Miguela’s
+            official website, ensuring a seamless user experience and an aesthetically
+            pleasing interface that aligns with Miguela’s artistic vision.
+          </p>
+        </div>
+        <img src="/needs.png" alt="User needs post-its" />
         <div className="max-w-2xl">
           <h3 className="text-3xl font-medium mb-3">Role</h3>
           <p className="text-zinc-700 text-lg mb-6">
