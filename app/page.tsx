@@ -8,13 +8,6 @@ const navItems = [
     imgSrc: "/677shots_so.png",
     link: "/miguela",
   },
-  {
-    title: "Zé",
-    description:
-      "kasdkjas dfjka aksjd fkjasdfve design, and seamless functionality. Ensured project alignment with brand vision and goals, resulting in improved user engagement, conversion rates, and increased client inquiries within six months post-launch.",
-    imgSrc: "/677shots_so.png",
-    link: "/ze",
-  },
 ];
 
 export default function Page() {
