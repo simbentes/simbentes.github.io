@@ -4,7 +4,7 @@ const navItems = [
   {
     title: "Miguela",
     description:
-      "Led the end-to-end design and development of miguela.pt website, prioritizing user experience, responsive design, and seamless functionality. Ensured project alignment with brand vision and goals, resulting in improved user engagement, conversion rates, and increased client inquiries within six months post-launch.",
+      "Designed and developed of miguela.pt website, prioritizing user experience, responsive design, and seamless functionality. Ensured project alignment with brand vision and goals, resulting in improved user engagement, conversion rates, and increased client inquiries within six months post-launch.",
     imgSrc: "/677shots_so.png",
     link: "/miguela",
   },

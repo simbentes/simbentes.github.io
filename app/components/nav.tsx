@@ -20,7 +20,7 @@ function ArrowIcon() {
 export function Navbar() {
   return (
     <header className="mb-8">
-      <div className="flex flex-col gap-y-1">
+      <div className="flex flex-col gap-y-1 px-2">
         <Link
           href={"/"}
           className="transition-all hover:text-neutral-800 flex align-middle relative"
@@ -30,7 +30,7 @@ export function Navbar() {
         <ul className="flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0">
           <li>
             <a
-              className="flex items-center transition-all hover:text-neutral-800"
+              className="flex items-center transition-all hover:text-emerald-500"
               rel="noopener noreferrer"
               target="_blank"
               href="mailto:sdgbentes@gmail.com"
@@ -41,7 +41,7 @@ export function Navbar() {
           </li>
           <li>
             <a
-              className="flex items-center transition-all hover:text-neutral-800"
+              className="flex items-center transition-all hover:text-emerald-500"
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/sbentes/"
