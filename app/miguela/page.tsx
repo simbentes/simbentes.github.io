@@ -59,9 +59,12 @@ export default function Page() {
           <p className="text-zinc-700 text-lg mb-6">
             <p className="text-zinc-700 text-lg mt-6">
               As the project evolved, the concept of a custom digital board featuring
-              Silly's content came to life. This board is uniquely designed to adapt to
-              individual users, offering the flexibility to rearrange elements through an
-              intuitive drag-and-drop interface.
+              Silly's diverse content came to life. This board is uniquely designed to
+              adapt to individual users, offering the flexibility to rearrange elements
+              through an intuitive drag-and-drop interface. The board showcases a rich
+              variety of content, including videos, photos, lyrics, and behind-the-scenes
+              footage, all seamlessly integrated to provide a dynamic and immersive
+              experience.
             </p>
           </p>
         </div>
@@ -96,11 +99,9 @@ export default function Page() {
             also successfully met Silly's needs for a robust online presence. The
             website's engaging design and seamless functionality resulted in a significant
             increase in fan engagement, with users spending more time exploring the
-            content and interacting with the custom digital board. Additionally, the
-            integration of e-commerce features allowed for a smooth transaction process,
-            leading to an uptick in merchandise sales. Overall, the project has been
-            well-received by both the artist and her fanbase, solidifying Silly's brand in
-            the digital space.
+            content and interacting with the custom digital board. Overall, the project
+            has been well-received by both the artist and her fanbase, solidifying Silly's
+            brand in the digital space.
           </p>
         </div>
       </div>
