@@ -17,7 +17,7 @@ export default function Page() {
             >
               miguela.pt
             </a>{" "}
-            to learn more.
+            to explore more.
           </p>
         </div>
         <figure>
