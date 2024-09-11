@@ -8,12 +8,14 @@ export default function WorkArticle({ title, description, imgSrc, link }) {
         <h2 className="text-4xl font-medium mb-4">{title}</h2>
         <div className="flex items-center justify-between">
           <p className="text-xl text-zinc-600 max-w-2xl">{description}</p>
-          <Link
-            href={link}
-            className="py-2 px-8 border border-zinc-400 rounded-full text-nowrap hover:bg-zinc-100 hover:shadow-sm transition-all"
-          >
-            Read More
-          </Link>
+          {link !== "" ? (
+            <Link
+              href={link}
+              className="py-2 px-8 border border-zinc-400 rounded-full text-nowrap hover:bg-zinc-100 hover:shadow-sm transition-all"
+            >
+              Read More
+            </Link>
+          ) : null}
         </div>
       </div>
       <img src={imgSrc} alt="Miguela Website" />
