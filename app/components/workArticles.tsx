@@ -6,7 +6,7 @@ export default function WorkArticle({ title, description, imgSrc, link }) {
     <article className="pt-12 pb-6">
       <div className="mb-5">
         <h2 className="text-4xl font-medium mb-4">{title}</h2>
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-end md:items-center gap-y-4 justify-between">
           <p className="text-xl text-zinc-600 max-w-2xl">{description}</p>
           {link !== "" ? (
             <Link
