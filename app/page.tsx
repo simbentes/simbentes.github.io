@@ -39,7 +39,7 @@ export default function Page() {
       */}
       <div className="max-w-2xl mt-4 mb-2">
         <p className="text-xl text-zinc-600">
-          Hey there! I'm a Frontend Engineer over. I focus on building clean,
+          Hey there! I'm a Frontend Engineer. I focus on building clean,
           efficient, and scalable interfaces that bring products to life. I'm
           passionate about turning complex problems into smooth, user-friendly
           experiences using modern web technologies.
