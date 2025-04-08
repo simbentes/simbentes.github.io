@@ -12,11 +12,11 @@ const navItems = [
     title: "Miguela",
     description: (
       <>
-        "Designed and developed of miguela.pt website, prioritizing user
+        Designed and developed of miguela.pt website, prioritizing user
         experience, responsive design, and seamless functionality. Ensured
         project alignment with brand vision and goals, resulting in improved
         user engagement, conversion rates, and increased client inquiries within
-        six months post-launch."Visit{" "}
+        six months post-launch. Visit{" "}
         <a
           href="https://miguela.pt"
           className="underline hover:text-blue-500 transition-colors"
