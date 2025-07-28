@@ -4,7 +4,6 @@ import { Navbar } from "./components/nav";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
-import { baseUrl } from "./sitemap";
 import localFont from "next/font/local";
 
 const neueMontreal = localFont({
@@ -44,7 +43,6 @@ const neueMontreal = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
   title: {
     default: "Simão Bentes - Work",
     template: "%s | Next.js Portfolio Starter",
@@ -53,7 +51,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "My Portfolio",
     description: "This is my portfolio.",
-    url: baseUrl,
     siteName: "My Portfolio",
     locale: "en_US",
     type: "website",
@@ -73,9 +70,16 @@ export const metadata: Metadata = {
 
 const cx = (...classes) => classes.filter(Boolean).join(" ");
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" className={cx("text-black bg-white", neueMontreal.variable)}>
+    <html
+      lang="en"
+      className={cx("text-black bg-white", neueMontreal.variable)}
+    >
       <body className="antialiased max-w-5xl mx-4 mt-8 mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
