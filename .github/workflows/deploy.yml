@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Roda quando você faz push na branch main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
