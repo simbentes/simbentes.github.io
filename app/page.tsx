@@ -7,6 +7,7 @@ const navItems = [
       "Led the development of a user-friendly SaaS platform for employees to log their hours across tasks. The application simplifies timesheet management with an intuitive interface, real-time tracking, and easy reporting, making it efficient and straightforward for users.",
     imgSrc: "/planview.png",
     link: "",
+    slug: "planview",
   },
   {
     title: "Miguela",
@@ -28,6 +29,7 @@ const navItems = [
     ),
     imgSrc: "/677shots_so.png",
     link: "/miguela",
+    slug: "miguela",
   },
 ];
 
@@ -50,7 +52,7 @@ export default function Page() {
         </p>
       </div>
       {navItems.map((el) => (
-        <section className="mt-20">
+        <section className="mt-20" key={el.slug}>
           <WorkArticle {...el} />
         </section>
       ))}
